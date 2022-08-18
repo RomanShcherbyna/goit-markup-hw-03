@@ -23,6 +23,7 @@
   justify-items: center;
   align-items: center;
   margin: auto;
+  min-width: 1230px;
   max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
@@ -236,8 +237,11 @@ ul > .linknow a {
   justify-content: space-between;
   padding-bottom: 82px;
   margin-left: auto;
+
 }
 .doing .item {
+
+  justify-content: space-between;
   display: flex;
   margin-top: 50px;
   padding-left: 0px;
