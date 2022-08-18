@@ -19,30 +19,41 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./style/style.css" />
-  </head>
-  <body>
-    <header class="head container">
+  <header class="section">
       <!-- Шапка -->
-      <a class="logo" href="./index.html"
+      <div class="container head">
+        <a class="logo" href="./index.html"
           ><span class="web-logo">Web</span><span class="studio-logo-head">Studio</span></a
         >
-      <nav class="">
-        <ul class="site-nav">
-          <li class="site-nav-item"><a class="head_navigator" href="./index.html">Студия</a></li>
-          <li class="site-nav-item linknow"><a class="head_navigator" href="./portfolio.html">Портфолио</a></li>
-          <li class="site-nav-item"><a class="head_navigator" href="">Контакты</a></li>
+        <nav class="">
+          <ul class="site-nav">
+            <li class="site-nav-item">
+              <a class="head_navigator" href="./index.html">Студия</a>
+            </li>
+            <li class="site-nav-item linknow">
+              <a class="head_navigator" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="site-nav-item"><a class="head_navigator" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="phone-mail">
+          <li>
+            <a class="mailphone-head item mail-head" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mailphone-head item phone-head" href="tel:+380961111111"
+              >+ 38 096 111 11 11</a
+            >
+          </li>
         </ul>
-        </div>
-      </nav>
-      <ul class="phone-mail">
-        <li><a class="mailphone-head item mail-head" href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-        <li><a class="mailphone-head item phone-head" href="tel:+380961111111">+ 38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <!--основной контент страницы  -->
     <main>
-      <section class="container">
-        <div class="portfolio_buttond">
+      <section class="section">
+        <div class="container">
           <h1 class="hide-text">Портфолио</h1>
           <ul class="portfolio-list section container">
             <li class="button-portf"><button type="button">Все</button></li>
@@ -51,8 +62,7 @@
             <li class="button-portf"><button type="button">Дизайн</button></li>
             <li class="button-portf"><button type="button">Маркетинг</button></li>
           </ul>
-        </div>
-        <ul class="portfolio-class container">
+          <ul class="portfolio-class">
           <li class="image-text">
             <a href="#">
               <img src="./img/openbook.jpg" alt="Открытый ноутбук" width="360" />
@@ -135,19 +145,22 @@
             </a>
           </li>
         </ul>
+      </div>  
       </section>
     </main>
-     <footer class="footer container">
-      <a class="logo footer-logo" href="./index.html"
-        ><span class="web-logo">Web</span><span class="studio-logo-foot">Studio</span></a
-      >
-      <address class="adress">
-        <p class="adres_street">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="contact-footer">
-          <li><a class="adress-footer" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="adress-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+        <footer class="footer">
+      <div class="container">
+        <a class="logo footer-logo" href="./index.html"
+          ><span class="web-logo">Web</span><span class="studio-logo-foot">Studio</span></a
+        >
+        <address class="adress">
+          <p class="adres_street">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="contact-footer">
+            <li><a class="adress-footer" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="adress-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
