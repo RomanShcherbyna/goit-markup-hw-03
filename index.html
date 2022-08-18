@@ -21,12 +21,12 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body class="body">
-    <header class="head">
+    <header class="head container">
       <!-- Шапка -->
       <a class="logo" href="./index.html"
           ><span class="web-logo">Web</span><span class="studio-logo-head">Studio</span></a
         >
-      <nav>
+      <nav class="">
         <ul class="site-nav">
           <li class="site-nav-item linknow"><a class="head_navigator" href="./index.html">Студия</a></li>
           <li class="site-nav-item"><a class="head_navigator" href="./portfolio.html">Портфолио</a></li>
@@ -42,15 +42,14 @@
     <!--основной контент страницы  -->
     <main>
       <!-- Надпись на фоне -->
-      <section class="big-image">
+      <section class="big-image  container">
         <h1 class="big-image-text">Эффективные решения для вашего бизнеса</h1>
         <button class="button-hero" type="button">Заказать услугу</button>
       </section>
       <!-- Особенности -->
       <section class="section">
         <h2 class="hide-text">Особенности</h2>
-        <div></div>
-        <ul class="peculiarity">
+        <ul class="peculiarity container">
           <li class="item">
             <h3 class="text-h-index">Внимание к деталям</h3>
             <p class="text-p-index">
@@ -78,16 +77,16 @@
         </ul>
       </section>
       <!-- чем мы занимаемся -->
-      <section class="doing section">
+      <section class="doing section container">
         <h2 class="title">Чем мы занимаемся</h2>
-        <ul class="item">
+        <ul class="item container">
           <li><img class="img" src="./img/analitic.jpg" alt="Картинка Аналитики" width="370" /></li>
           <li><img class="img" src="./img/appdevel.jpg" alt="Картинка Разработки Приложений" width="370" /></li>
           <li><img class="img" src="./img/color.jpg" alt="Картинка Колористики" width="370" /></li>
         </ul>
       </section>
       <!-- Наша Команда -->
-      <section class="myteam section">
+      <section class="myteam section container">
         <h2 class="title">Наша команда</h2>
         <ul class="ul_myteam">
           <li class="photo_myteam">
@@ -121,12 +120,10 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <div  class="footer">
+    <footer class="footer container">
       <a class="logo footer-logo" href="./index.html"
         ><span class="web-logo">Web</span><span class="studio-logo-foot">Studio</span></a
       >
-      </div>
       <address class="adress">
         <p class="adres_street">г. Киев, пр-т Леси Украинки, 26</p>
         <ul class="contact-footer">
@@ -134,7 +131,6 @@
           <li><a class="adress-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
-      </div>
     </footer>
   </body>
 </html>
