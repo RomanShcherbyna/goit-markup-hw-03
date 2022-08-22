@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>main page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,22 +19,26 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./style/style.css" />
-  <header class="section">
+  </head>
+  <body class="body">
+    <header class="">
       <!-- Шапка -->
-      <div class="container head">
-        <a class="logo" href="./index.html"
-          ><span class="web-logo">Web</span><span class="studio-logo-head">Studio</span></a
-        >
+      <div class="head container">
         <nav class="">
-          <ul class="site-nav">
-            <li class="site-nav-item">
-              <a class="head_navigator" href="./index.html">Студия</a>
-            </li>
-            <li class="site-nav-item linknow">
-              <a class="head_navigator" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="site-nav-item"><a class="head_navigator" href="">Контакты</a></li>
-          </ul>
+          <div class="head">
+            <a class="logo" href="./index.html"
+              ><span class="web-logo">Web</span><span class="studio-logo-head">Studio</span></a
+            >
+            <ul class="site-nav">
+              <li class="site-nav-item">
+                <a class="head_navigator" href="./index.html">Студия</a>
+              </li>
+              <li class="site-nav-item ">
+                <a class="head_navigator" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="site-nav-item"><a class="head_navigator" href="">Контакты</a></li>
+            </ul>
+          </div>
         </nav>
         <ul class="phone-mail">
           <li>
@@ -51,11 +55,11 @@
       </div>
     </header>
     <!--основной контент страницы  -->
-    <main>
-      <section class="section">
-        <div class="container">
+    <main class="">
+      <section class="section portfolio_main">
+        <div class="container maincontent-portf">
           <h1 class="hide-text">Портфолио</h1>
-          <ul class="portfolio-list section container">
+          <ul class="portfolio-list container">
             <li class="button-portf"><button type="button">Все</button></li>
             <li class="button-portf"><button type="button">Веб-сайты</button></li>
             <li class="button-portf"><button type="button">Приложения</button></li>
@@ -148,7 +152,7 @@
       </div>  
       </section>
     </main>
-        <footer class="footer">
+  <footer class="footer">
       <div class="container">
         <a class="logo footer-logo" href="./index.html"
           ><span class="web-logo">Web</span><span class="studio-logo-foot">Studio</span></a
@@ -156,8 +160,8 @@
         <address class="adress">
           <p class="adres_street">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="contact-footer">
-            <li><a class="adress-footer" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="adress-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <li class="item"><a class="adress-footer" href="mailto:info@example.com">info@example.com</a></li>
+            <li class="item"><a class="adress-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
           </ul>
         </address>
       </div>
