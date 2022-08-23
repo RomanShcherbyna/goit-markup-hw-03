@@ -76,6 +76,7 @@ ul {
 }
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 /* шапка */
 header {  
@@ -147,7 +148,7 @@ ul > .linknow a {
   color: var(--hover_text_color);
 }
 /* BIG IMAGE */
-.big-image {
+.hero {
   background-color: var(--border_image);  
   padding-top: 200px;
   padding-bottom: 200px;
@@ -222,6 +223,9 @@ text-transform: uppercase;
   text-align: center;
 }
 /* чем мы занимаемся */
+.what-we-doing {
+  padding-top: 0;
+}
 .doing .item {
   display: flex;
   margin-top: 50px;
@@ -241,9 +245,7 @@ text-transform: uppercase;
 }
 .myteam .title {
   padding-bottom: 50px;
-}
-.myteam .container {
-  padding-top: 94px;
+
 }
 .photo_myteam {
   background-color: var(--white_color_text);
@@ -277,6 +279,11 @@ text-transform: uppercase;
 
 }
 /* Логотип футер */
+.studio-logo-foot {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
 .studio-logo-foot,
 .adres_street {
   color: var(--white_color_text);
@@ -290,7 +297,7 @@ text-transform: uppercase;
 }
 /*футер */
 .footer {
-  background-color: var(--primary_text_color);
+  background-color: var(--border_image);
   height: 252px;
   border-top: 12px;
   padding-top: 60px;
@@ -313,9 +320,7 @@ text-transform: uppercase;
   color: var(--hover_text_color);
 }
 /* PORTFOLIO PAGE */
-.maincontent-portf {
-  padding-top: 94px;
-}
+
 .button-portf button {
   background-color: var(--backgroud_myteam);
   min-width: 73px;
@@ -384,5 +389,5 @@ text-transform: uppercase;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary_text_color);
-
+  margin-bottom: 4px;
 }
